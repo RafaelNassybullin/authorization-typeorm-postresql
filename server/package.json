@@ -1,0 +1,47 @@
+{
+  "name": "server",
+  "author": "Rafael Nassybullin",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "this is graphql server",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon src/index.ts",
+    "start:server": "node src/index.ts",
+    "watch:server": "tsc -w",
+    "build:server": "tsc --project ."
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/connect-redis": "^0.0.18",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/express-session": "^1.17.0",
+    "@types/graphql": "^14.5.0",
+    "@types/ioredis": "^4.28.10",
+    "@types/node": "^18.8.3",
+    "@types/nodemailer": "^6.4.6",
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.10.2",
+    "bcryptjs": "^2.4.3",
+    "colorette": "^2.0.19",
+    "connect-redis": "^6.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "graphql": "^15.8.0",
+    "ioredis": "^5.2.3",
+    "nodemailer": "^6.8.0",
+    "pg": "^8.8.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.3.10",
+    "uuid": "^9.0.0"
+  }
+}
